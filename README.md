@@ -1,3 +1,2 @@
 El proposito de esta pagina web es poder realizarle un pagina a una counselor para que sus pacientes puedan ver los tipos de terapias que ofrece, que se puedan contactar con ella por medio de redes sociales o enviando un mensaje por la pagina. tambien habra mensajes con consejos para tu dia a dia, las preguntas frecuentes para solucionar dudas como que es el councelor y como son las terapias y otros
 
-todavia faltan las preguntas frecuentes y la informacion de las terapias. Decidi poner una imagen de una persona aleatoria, igual que el texto ya que para la entrega final terminare de ajustar esos datos con los que corresponda ;)
