@@ -1,0 +1,332 @@
+
+body {
+    background-color: #56655c;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+#header {
+    
+    height: 64px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.imagen_logo {
+    
+    margin-top: 15px;
+    width: 250px;    
+}
+
+
+#menu {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.elemento_menu {
+    list-style: none;
+    float: left;
+}
+.elemento_menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-size: 20px;
+    margin-left: 1cm;
+}
+.elemento_menu a:hover {
+    border-bottom: 5px solid #fff7d9;  
+}
+.elemento_menu_submenu {
+    list-style: none;
+    float: left;
+}
+.elemento_menu_submenu a {
+
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-size: 20px;
+    margin-left: 1cm;
+}
+.elemento_menu_submenu a:hover{
+    border-bottom: 5px solid #fff7d9;  
+}
+
+.elemento_submenu {
+    display: none; 
+    background-color: #81998d; 
+    padding: 10px 0;
+    margin: 0;
+    border-radius: 5px;
+    list-style: none;
+    width: 7cm;
+    position: absolute;
+}
+
+.elemento_submenu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.elemento_submenu li a:hover{
+    color: rgb(208, 207, 207);
+}
+.elemento_menu_submenu:hover .elemento_submenu{
+    display: block;
+}
+
+
+
+
+.portada {
+    margin-top: 1.5cm;
+}
+.texto_portada {
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
+    letter-spacing: 0.1cm;
+ 
+}
+
+.texto_portada2 {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 0.1cm;
+    margin-top: -0.5cm;
+    margin-bottom: 2cm;
+    opacity: 1;
+    transition: opacity 2s ease;
+}
+
+.grid_terapias {
+    display: grid;
+    grid-template-columns: repeat(3, 20%);
+    grid-template-rows: repeat(2, 6cm);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: auto;
+    row-gap: 2cm;
+}
+.img_terapias {
+   height: 7cm;
+   width: 7cm;
+   padding: 0px;
+   margin: 0px;
+   object-fit: cover;
+   border-radius: 10px;
+}
+.img_terapias:hover {
+    border:solid white;
+    cursor:pointer;
+    box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.3); 
+}
+
+
+#QuienSoy {
+    margin-top: -1cm;
+    display: block;
+    background-color: #929489;
+}
+
+.img_separador {
+    width: 100%;
+    display: block;
+    justify-content: center;
+}
+
+
+.titulo {
+    padding-top: 1cm;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 0.1cm;
+}
+#grid_quiensoy {
+    display: grid;
+    grid-template-columns: repeat(2, 8cm);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+
+}
+#img_quiensoy {
+    height: 7cm;
+    padding: 0px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 0 1cm 0;
+
+}
+.parrafo_quiensoy {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0 10cm 1cm 10cm;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#Contacto {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 30%;  
+    margin: auto; 
+    overflow-wrap: break-word;
+    padding: 0px;
+
+}
+.parrafo_contacto {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+form {
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+
+}
+input {
+    display:block
+}
+textarea {
+    display: block;
+    text-align: center;
+    width: 6cm;
+}
+.texto_forms {
+    font-family: sans-serif ;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+.boton_forms {
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 1cm;
+    margin-top: 5px;
+    width: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    #header {
+        align-items: center;
+    }
+
+    .imagen_logo {
+        width: 150px;
+    }
+
+    .elemento_menu {
+        
+    }
+    .elemento_menu a {
+        margin-left: 0; 
+    }
+    .elemento_menu_submenu a {
+        margin-left: 0; 
+       
+    }
+    .elemento_menu a {
+       font-size: 10px;
+    }
+    .elemento_menu_submenu a{
+        font-size: 10px;
+    }
+    .grid_terapias {
+        grid-template-columns: 1fr;
+    }
+
+    #grid_quiensoy {
+        grid-template-columns: 1fr;
+    }
+
+    .parrafo_quiensoy {
+        margin: 0 2cm;
+    }
+
+    #Contacto {
+        width: 90%;
+        margin: 1cm auto;
+    }
+}
+
+/* Pantallas medianas (601px a 992px) */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+    .grid_terapias {
+        grid-template-columns: repeat(2, 40%);
+    }
+
+    #grid_quiensoy {
+        grid-template-columns: 1fr 1fr;
+    }
+    .parrafo_quiensoy {
+        width: 80%;
+    }
+    #Contacto {
+        width: 70%;
+    }
+
+    .imagen_logo {
+        width: 200px;
+    }
+}
+
+/* Pantallas grandes (mínimo 993px) */
+@media only screen and (min-width: 993px) {
+    .grid_terapias {
+        grid-template-columns: repeat(3, 20%);
+        gap: 2cm;
+    }
+
+    #grid_quiensoy {
+        grid-template-columns: repeat(2, 8cm);
+    }
+
+    .imagen_logo {
+        width: 250px;
+    }
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #21372d;
+    height: 2cm;
+    margin-top: 2cm
+    padding: 0px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_footer {
+    width: 7cm;
+}

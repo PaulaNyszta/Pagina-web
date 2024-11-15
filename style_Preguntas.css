@@ -1,0 +1,144 @@
+body {
+    background-color: #56655c;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+#header {
+    margin: -10px;
+    height: 64px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.imagen_logo {
+    padding-left:  5px;
+    margin-top: 15px;
+    width: 250px;
+    height: auto;
+}
+
+#menu {
+    
+    list-style: none;
+    justify-content: flex-start;
+    align-content: flex-end;
+    margin-left: auto;
+    margin-right: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.elemento_menu {
+    list-style: none;
+    float: left;
+}
+.elemento_menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-size: 20px;
+    margin-left: 1cm;
+}
+.elemento_menu a:hover {
+    border-bottom: 5px solid #fff7d9;  
+}
+.elemento_menu_submenu {
+    list-style: none;
+    float: left;
+}
+.elemento_menu_submenu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-size: 20px;
+    margin-left: 1cm;
+}
+.elemento_menu_submenu a:hover{
+    border-bottom: 5px solid #fff7d9;  
+}
+
+.elemento_submenu {
+    display: none; 
+    background-color: #81998d; 
+    padding: 10px 0;
+    margin: 0;
+    border-radius: 5px;
+    list-style: none;
+    width: 7cm;
+    position: absolute;
+}
+
+.elemento_submenu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.elemento_submenu li a:hover{
+    color: rgb(208, 207, 207);
+}
+.elemento_menu_submenu:hover .elemento_submenu{
+    display: block;
+}
+
+
+/*main------------------------------------------------------------------------------*/
+.portada {
+    margin-top: 1.5cm;
+}
+.texto_portada {
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
+    letter-spacing: 0.1cm;
+}
+
+/*card--------*/
+.cardPregunta{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-content:flex-start;
+    text-align: left;
+    width:50%;
+    height: 50px;
+    border-radius:15px;
+    margin: auto auto 1cm auto;
+    box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.3); 
+    background-color: #E4DCD3;
+    transition: height 1s;
+}
+.cardPregunta:hover {
+    height: 170px;
+}
+.cardPregunta:hover .cuerpo_cardPregunta{
+    display: block;
+    opacity: 1;
+}
+
+
+.pregunta_cardPregunta{
+    font-size: 23px;
+    padding: 10px 10px 0 10px;
+    color:#21372d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cuerpo_cardPregunta{
+    opacity: 0;
+    padding: 10px;
+    color: white;
+    transition: opacity 0.5s;
+}
+
+.texto_cardPregunta {
+    color:#21372d;
+    font-family: sans-serif;
+}
+

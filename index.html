@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>AlejandraCrespo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <header id="header">
+ 
+        <a href="index.html"> <img class="imagen_logo" src="logo.png"></a>
+
+        <nav id="menu">
+            <ul>
+                <li class="elemento_menu "><a  href="#section_quien_soy">Quien Soy</a></li>
+                <li class="elemento_menu"><a  href="Preguntas.html">Preguntas frecuentes</a></li>
+                <li class="elemento_menu_submenu"><a  href="Terapias.html">Terapias</a>
+                    <ul class="elemento_submenu">
+                        <a href="Terapias.html #TIndividual"><li>Individual</li> </a>
+                        <a href="Terapias.html #TPareja"><li>Terapia de Parejas</li></a>
+                        <a href="Terapias.html #TAdolescente"><li>para Adolescentes</li></a>
+                        <a href="Terapias.html #TGrupal"><li>Terapia Grupal</li></a>
+                        <a href="Terapias.html #TVirtual"><li>Terapia Virtual</li></a>
+                        <a href="Terapias.html #TFamiliar"><li>Terapia Familiar</li></a>
+                    </ul>
+                </li>
+                <li class="elemento_menu"><a  href="#Contacto">Contacto</a></li>
+                
+             </ul>
+        </nav>
+
+    </header>
+    <main class="main"> 
+        <div class="portada"> 
+            <h1 class="texto_portada">Mereces ser feliz </h1>
+            <p class="texto_portada2">¿Que tipo de terapia estas buscando?</p>
+        </div>
+
+        <div class="grid_terapias">
+            <a href="Terapias.html #TIndividual"><img class="img_terapias" src="individual.png"></a>
+            <a href="Terapias.html #TPareja"><img class="img_terapias" src="pareja.png"></a>
+            <a href="Terapias.html #TAdolescente"><img class="img_terapias" src="adolescente.png"></a>
+            <a href="Terapias.html #TGrupal"> <img class="img_terapias" src="grupal.png"> </a>
+            <a href="Terapias.html #TVirtual"> <img class="img_terapias" src="virtual.png"> </a>
+            <a href="Terapias.html #TFamiliar"> <img class="img_terapias" src="familiar.png"> </a>
+
+        </div>
+
+        <img src="separadorverde.png" class="img_separador" id="section_quien_soy">
+        <section id="QuienSoy">
+            <h1 class="titulo">Quien Soy</h1>
+            <div id="grid_quiensoy">
+                <img src="persona.png" id="img_quiensoy">  
+                <p class="parrafo_quiensoy">Soy Alejandra, counselor comprometido con acompañarte en tu camino hacia el bienestar emocional y personal. Mi enfoque se centra en escucharte, entender tus necesidades y brindarte herramientas prácticas para enfrentar desafíos, explorar tus emociones y alcanzar tus metas. Juntos crearemos un espacio seguro y de confianza para que descubras tu mejor versión. Estoy aquí para apoyarte.</p>
+                
+            </div>
+        </section>
+        <img src="separadorverdeinv.png" class="img_separador">
+
+        
+        <section id="Contacto">
+            
+            <h1 class="titulo">Contacto</h1>
+            <p class="parrafo_contacto">¿Listo/a para dar el primer paso hacia tu bienestar? 🌟 Estoy aquí para escucharte y acompañarte en este camino. Completa el formulario o escríbeme directamente por mis redes sociales, y juntos encontraremos la mejor manera de trabajar en tus objetivos. ¡Estoy ansiosa por conocerte!</p>
+            <form action="https://formspree.io/f/mldenllb" method="POST">
+                <label class="texto_forms">
+                    Nombre
+                    <input type="name" name="name">
+                </label>
+                <label class="texto_forms">
+                    Tu email
+                    <input type="email" name="email">
+                </label>
+                <label class="texto_forms">
+                    Quieres escribirme un mensaje...
+                    <textarea name="message"></textarea>
+                </label>
+                <button type="submit" class="boton_forms">Enviar</button>
+            </form>
+        </section>
+        
+    </main>
+    <footer >
+        <img src="logo.png" class="logo_footer">
+    </footer>
+
+</body>
+
+</html>
