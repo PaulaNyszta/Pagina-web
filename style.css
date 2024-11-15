@@ -296,14 +296,6 @@ textarea {
 
 /* Pantallas grandes (mínimo 993px) */
 @media only screen and (min-width: 993px) {
-    .grid_terapias {
-        grid-template-columns: repeat(3, 20%);
-        gap: 2cm;
-    }
-
-    #grid_quiensoy {
-        grid-template-columns: repeat(2, 8cm);
-    }
 
     .imagen_logo {
         width: 250px;
