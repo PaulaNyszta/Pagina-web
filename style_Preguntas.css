@@ -1,88 +1,8 @@
-body {
+#body {
     background-color: #56655c;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-}
-#header {
-    margin: -10px;
-    height: 64px;
-    width: 100%;
-    justify-content: space-between;
-    padding: 0 16px;
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
-}
-.imagen_logo {
-    padding-left:  5px;
-    margin-top: 15px;
-    width: 250px;
-    height: auto;
-}
-
-#menu {
-    
-    list-style: none;
-    justify-content: flex-start;
-    align-content: flex-end;
-    margin-left: auto;
-    margin-right: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.elemento_menu {
-    list-style: none;
-    float: left;
-}
-.elemento_menu a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-    display: block;
-    font-size: 20px;
-    margin-left: 1cm;
-}
-.elemento_menu a:hover {
-    border-bottom: 5px solid #fff7d9;  
-}
-.elemento_menu_submenu {
-    list-style: none;
-    float: left;
-}
-.elemento_menu_submenu a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-    display: block;
-    font-size: 20px;
-    margin-left: 1cm;
-}
-.elemento_menu_submenu a:hover{
-    border-bottom: 5px solid #fff7d9;  
-}
-
-.elemento_submenu {
-    display: none; 
-    background-color: #81998d; 
-    padding: 10px 0;
-    margin: 0;
-    border-radius: 5px;
-    list-style: none;
-    width: 7cm;
-    position: absolute;
-}
-
-.elemento_submenu li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.elemento_submenu li a:hover{
-    color: rgb(208, 207, 207);
-}
-.elemento_menu_submenu:hover .elemento_submenu{
-    display: block;
 }
 
 
@@ -112,7 +32,7 @@ body {
     margin: auto auto 1cm auto;
     box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.3); 
     background-color: #E4DCD3;
-    transition: height 1s;
+    transition: height 0.8s;
 }
 .cardPregunta:hover {
     height: 170px;
@@ -120,6 +40,7 @@ body {
 .cardPregunta:hover .cuerpo_cardPregunta{
     display: block;
     opacity: 1;
+    
 }
 
 
@@ -142,3 +63,18 @@ body {
     font-family: sans-serif;
 }
 
+/*footer-------------------------------------*/
+footer {
+    background-color: #21372d;
+    height: 2cm;
+    margin-top: 2cm;
+    padding: 0px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_footer {
+    width: 7cm;
+}

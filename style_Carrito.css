@@ -1,0 +1,45 @@
+#body {
+    background-color: #56655c;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+.portada {
+    margin-top: 0.5cm;
+}
+.texto_portada {
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
+    letter-spacing: 0.1cm;
+}
+.texto_portada2 {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 0.1cm;
+    margin-top: 0cm;
+    margin-bottom: 2cm;
+    opacity: 1;
+    transition: opacity 2s ease;
+}
+
+/*footer-------------------------------------*/
+footer {
+    background-color: #21372d;
+    height: 2cm;
+    margin-top: 2cm;
+    padding: 0px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_footer {
+    width: 7cm;
+}
